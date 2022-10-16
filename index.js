@@ -4,10 +4,13 @@ const path = require('path')
 //crea la aplicacion 
 const app = express()
 
+// import 'dotenv/config'
+
 //lee el body en formato json
 app.use(express.json())
 
 //define un puerto en que va a escuchar pedidos
+// const port = process.env.PORT
 const port = 3000
 
 //endpoints
